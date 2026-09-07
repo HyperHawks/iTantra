@@ -1,0 +1,16 @@
+<resources>
+  <string name="app_name">iTantra</string>
+  <string name="app_subtitle">Neural Transceiver for Multilingual Voice Relay</string>
+  <string name="hackathon_tag">SIH 2025 / TEKATHON 5.0 - Spektacle</string>
+  <string name="transceiver_tab">Transceiver</string>
+  <string name="channels_tab">Channels</string>
+  <string name="diagnostics_tab">Diagnostics</string>
+  <string name="sos_tab">112 SOS</string>
+  <string name="ptt_hold_to_talk">Hold to Talk</string>
+  <string name="ptt_release_to_send">Release to Send</string>
+  <string name="vad_active">VOICE DETECTION ACTIVE</string>
+  <string name="link_status_lora">LoRa Kilobit-Class</string>
+  <string name="link_status_ble">BLE Mesh Link</string>
+  <string name="link_status_wifi">WiFi Direct P2P</string>
+  <string name="link_status_2g">BSNL 2G Fallback</string>
+</resources>
