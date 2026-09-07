@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color background_dark
+color primary
+color primary_dark
+color surface_dark
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string app_subtitle
+string channels_tab
+string diagnostics_tab
+string hackathon_tag
+string link_status_2g
+string link_status_ble
+string link_status_lora
+string link_status_wifi
+string ptt_hold_to_talk
+string ptt_release_to_send
+string sos_tab
+string transceiver_tab
+string vad_active
+style Theme.ITantra

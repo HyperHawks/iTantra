@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#00E5FF</color>
+    <color name="background_dark">#121417</color>
+    <color name="primary">#FF7043</color>
+    <color name="primary_dark">#D84315</color>
+    <color name="surface_dark">#1B1F24</color>
+    <string name="app_name">iTantra</string>
+    <string name="app_subtitle">Neural Transceiver for Multilingual Voice Relay</string>
+    <string name="channels_tab">Channels</string>
+    <string name="diagnostics_tab">Diagnostics</string>
+    <string name="hackathon_tag">SIH 2025 / TEKATHON 5.0 - Spektacle</string>
+    <string name="link_status_2g">BSNL 2G Fallback</string>
+    <string name="link_status_ble">BLE Mesh Link</string>
+    <string name="link_status_lora">LoRa Kilobit-Class</string>
+    <string name="link_status_wifi">WiFi Direct P2P</string>
+    <string name="ptt_hold_to_talk">Hold to Talk</string>
+    <string name="ptt_release_to_send">Release to Send</string>
+    <string name="sos_tab">112 SOS</string>
+    <string name="transceiver_tab">Transceiver</string>
+    <string name="vad_active">VOICE DETECTION ACTIVE</string>
+    <style name="Theme.ITantra" parent="android:Theme.Material.NoActionBar">
+    <item name="android:statusBarColor">#121417</item>
+    <item name="android:navigationBarColor">#121417</item>
+    <item name="android:windowBackground">#121417</item>
+  </style>
+</resources>

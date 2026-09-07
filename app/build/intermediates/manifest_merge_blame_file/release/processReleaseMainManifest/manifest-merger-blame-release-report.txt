@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.hyperhawks.itantra"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:4:3-69
+11-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:4:20-66
+12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+12-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:5:3-78
+12-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:5:20-75
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:6:3-66
+13-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:6:20-63
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:7:3-72
+14-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:7:20-69
+15    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+15-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:8:3-71
+15-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:8:20-68
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+16-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:9:3-76
+16-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:9:20-73
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:10:3-74
+17-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:10:20-71
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:11:3-77
+18-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:11:20-74
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:12:3-79
+19-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:12:20-76
+20    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
+20-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:13:3-76
+20-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:13:20-73
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:14:3-74
+21-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:14:20-71
+22    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+22-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:15:3-74
+22-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:15:20-71
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:16:3-65
+23-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:16:20-62
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:17:3-77
+24-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:17:20-74
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:18:3-64
+25-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:18:20-61
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:19:3-66
+26-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:19:20-63
+27
+28    <permission
+28-->[androidx.core:core:1.15.0] /Users/sword/.gradle/caches/9.7.1/transforms/e5c250506bc7358db464ff12b85675c0/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+29        android:name="org.hyperhawks.itantra.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.15.0] /Users/sword/.gradle/caches/9.7.1/transforms/e5c250506bc7358db464ff12b85675c0/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.15.0] /Users/sword/.gradle/caches/9.7.1/transforms/e5c250506bc7358db464ff12b85675c0/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="org.hyperhawks.itantra.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.15.0] /Users/sword/.gradle/caches/9.7.1/transforms/e5c250506bc7358db464ff12b85675c0/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.15.0] /Users/sword/.gradle/caches/9.7.1/transforms/e5c250506bc7358db464ff12b85675c0/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:21:3-39:17
+35        android:name="org.hyperhawks.itantra.ITantraApplication"
+35-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:22:5-39
+36        android:allowBackup="true"
+36-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:23:5-31
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.15.0] /Users/sword/.gradle/caches/9.7.1/transforms/e5c250506bc7358db464ff12b85675c0/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:24:5-39
+40        android:label="@string/app_name"
+40-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:25:5-37
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:26:5-50
+42        android:supportsRtl="true"
+42-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:27:5-31
+43        android:theme="@style/Theme.ITantra" >
+43-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:28:5-41
+44        <activity
+44-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:29:5-38:16
+45            android:name="org.hyperhawks.itantra.MainActivity"
+45-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:30:7-35
+46            android:exported="true"
+46-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:31:7-30
+47            android:theme="@style/Theme.ITantra"
+47-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:32:7-43
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:33:7-49
+49            <intent-filter>
+49-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:34:7-37:23
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:35:9-61
+50-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:35:17-58
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:36:9-69
+52-->/Users/sword/Projects/iTantra/app/src/main/AndroidManifest.xml:36:19-66
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.3.0] /Users/sword/.gradle/caches/9.7.1/transforms/9d77557fc3a742f9fcb0d47297b6041e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.3.0] /Users/sword/.gradle/caches/9.7.1/transforms/9d77557fc3a742f9fcb0d47297b6041e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+58            android:authorities="org.hyperhawks.itantra.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.3.0] /Users/sword/.gradle/caches/9.7.1/transforms/9d77557fc3a742f9fcb0d47297b6041e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/sword/.gradle/caches/9.7.1/transforms/9d77557fc3a742f9fcb0d47297b6041e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/sword/.gradle/caches/9.7.1/transforms/9d77557fc3a742f9fcb0d47297b6041e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/sword/.gradle/caches/9.7.1/transforms/9d77557fc3a742f9fcb0d47297b6041e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/sword/.gradle/caches/9.7.1/transforms/9d77557fc3a742f9fcb0d47297b6041e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sword/.gradle/caches/9.7.1/transforms/579033bff8c777317a38b55b14d98899/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sword/.gradle/caches/9.7.1/transforms/579033bff8c777317a38b55b14d98899/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sword/.gradle/caches/9.7.1/transforms/579033bff8c777317a38b55b14d98899/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sword/.gradle/caches/9.7.1/transforms/540f89a849305a7bf2cfbcec0ff47c79/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

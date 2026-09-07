@@ -155,8 +155,8 @@ class AudioRecorderController(
     var i: Int = 0
     while (i < barCount) {
       val sampleIndex: Int = (i * step).coerceIn(range = 0..(readSize - 1))
-      val norm: Float = (abs(x = buffer[sampleIndex].toInt()) / 32768.0f).coerceIn(
-        range = 0.05f..1.0f
+      val norm: Float = (abs(buffer[sampleIndex].toInt()) / 32768.0f).coerceIn(
+        0.05f, 1.0f
       )
       amplitudes.add(element = norm)
       i++

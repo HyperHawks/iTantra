@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "org.hyperhawks.itantra.app-release-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.hyperhawks.itantra.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.hyperhawks.itantra.app-release-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.hyperhawks.itantra.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.hyperhawks.itantra.app-release-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "org.hyperhawks.itantra.app-main-51:/drawable/ic_launcher_foreground.xml"
+    }
+]
